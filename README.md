@@ -11,7 +11,6 @@
 ### Build the client 
 
 ```sh
-cd mern/frontend
 docker build -t mern-frontend .
 ```
 
