@@ -11,14 +11,14 @@
 ### Build the client 
 
 ```sh
-docker build -t mern-frontend .
+docker build -t todo-backend .
 ```
 
 ### Run the client
 
-`docker run --name=frontend --network=demo -d -p 5173:5173 mern-frontend`
+`docker run --name=frontend --network=demo -d -p 5173:5173 todo-backend
 
-### Verify the client is running
+### Verify the app is running
 
 Open your browser and type `http://localhost:5173`
 
