@@ -29,12 +29,12 @@ Open your browser and type `http://localhost:5173`
 ### Build the server
 
 ```sh
-docker build -t mern-backend .
+docker build -t todo-backend .
 ```
 
 ### Run the server
 
-`docker run --name=backend --network=demo -d -p 5050:5050 mern-backend`
+`docker run --name=backend --network=demo -d -p 5050:5050 todo-backend`
 
 ## Using Docker Compose
 
