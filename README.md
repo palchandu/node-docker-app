@@ -30,7 +30,6 @@ Open your browser and type `http://localhost:5173`
 ### Build the server
 
 ```sh
-cd mern/backend
 docker build -t mern-backend .
 ```
 
